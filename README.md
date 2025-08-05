@@ -1,7 +1,5 @@
 # 🖼️ Photomosaic Generator (MATLAB)
 
-Treat your loved ones with a photomosaic made from their favorite pictures, which will form a new image.
-
 This MATLAB project generates a **grayscale photomosaic**, where many small tile images are arranged in a grid to form a new image. 
 Each tile is selected based on brightness to best match a region of the target image.
 
