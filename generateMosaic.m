@@ -11,7 +11,7 @@ tileFolder = 'tiles/'; % Folder where images for tiling lie
 outputFilename = 'photomosaic_output.png';
 
 %% Step 1: Import grayscale image
-img = imread('final.png');  % Replace with your image filename
+img = imread('target.jpg');  % Replace with your image filename
 
 
 %% Step 2: Create the grid ofnthe image
@@ -116,3 +116,4 @@ title("Photomosaic image assembled from" + numTiles +"tiles");
 
 imwrite(uint8(outputImage), outputFilename);
 disp("Saved photomosaic to " + outputFilename);
+
