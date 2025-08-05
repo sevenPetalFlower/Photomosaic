@@ -9,7 +9,7 @@ Each tile is selected based on brightness to best match a region of the target i
 
 ## 🧩 Example Result
 
-Given a set of tile images like this:
+📝 *In this example, the tile images were taken from the* **[Oxford 102 Flower Dataset](https://meta-album.github.io/datasets/FLW.html)** 
 
 <p align="center">
   <img src="tileExample.jpg" alt="Tile Example" width="150"/>
